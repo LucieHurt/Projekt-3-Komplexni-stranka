@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Lucie Hurtová -->
+    <!-- luckahurt@seznam.cz-->
+    <!-- Discord: Lucie.H -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="query.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/527a11164f.js" crossorigin="anonymous"></script>
+    <title>Komplexní webová stránka</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="./icons\logo-icon.png" alt="logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">O nás</a></li>
+                <li><a href="#">Pobočky</a></li>
+                <li><a href="#">Členství</a></li>
+                <li><a href="#">Ceník</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#" class="modeToggle">Mode
+                    <i class="fa-solid fa-circle-half-stroke"></i></a></li>                   
+            </ul>
+        </nav>
+        
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+            <!--<i class="fa-solid fa-chevron-up"></i> -->
+        </div>
+    </header>
+
+    
+    <main class="hero-section">
+        <div class="hero-text-wrapper">
+            <h1 class="hero-text">TRAIN LIKE<br>A HERO</h1>
+        </div>
+    </main>
+
+    <section class="info-section">
+        <div class="info-wrapper">
+            <h2 class="info-title">Najdi své limity a překroč je</h2>
+                <div class="content">
+                    <p>Naše fitness centra jsou otevřena v nepřetržitém režimu 24/7. Je jen na tobě, v jakou hodinu dostaneš chuť na trénink.
+                    Všechny pobočky jsou vybaveny pouze špičkovými a moderními stroji a výběr je opravdu velký. K dispozici jsou ti vyškolení trenéři,
+                    kteří tě rádi naučí správnou techniku cviků. Dostupná jsou i skupinová cvičení hned v několika prostorných sálech.</p>
+                <br>
+                    <p>Stále nemáš jasno? Nahlédni do naší galerie a přesvědč se sám.</p>
+                </div>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="photo-wrapper">
+            <div class="photo">
+                <img src="./img\anastase-maragos-7kEpUPB8vNk-unsplash.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="./img\danielle-cerullo-CQfNt66ttZM-unsplash.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="./img\graham-mansfield-rkBkXqlfRRo-unsplash.jpg" alt="">
+            </div>    
+            <div class="photo">
+                <img src="./img\john-fornander-TAZoUmDqzXk-unsplash.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="./img\cathy-pham-3jAN9InapQI-unsplash.jpg" alt="">
+            </div>
+            <div class="photo">
+                <img src="./img\scott-webb-5IsdIqwwNP4-unsplash.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="form-section">
+        <h2 class="form-title">Získej první vstup zdarma</h2>
+            <div class="form-text">
+                <p>Založ si členství a získej zkušební vstup zdarma, který ti otevře dveře do naší fitness komunity. 
+                Tvé členství bude uzavřeno na dobu neurčitou, výpovědní lhůta je jeden měsíc.</p>
+            <br>
+                <p>Tak už na nic nečekej a přidej se k nám!</p>
+            </div>
+    
+        <h2 class="title">REGISTRACE</h2>
+
+
+<!-- NOTIFIKACE -->
+
+        <p class="notificationName">Doplň jméno a příjmení</p>
+        <p class="notificationEmail">E-mail je povinný údaj</p>
+        <p class="notificationNumber">Telefonní číslo je povinný údaj</p>
+
+        <form>
+            <input type="text" placeholder="* Křestní jméno a příjmení" class="fullName">
+                <br>
+            <input type="email" placeholder="* E-mail" class="email">
+                <br>
+            <input type="number" placeholder="* Telefonní číslo" class="phoneNumber">
+                <br>
+            <input type="password" placeholder="Zadej heslo" class="password">
+                <br>
+            <input type="password" placeholder="Zopakuj heslo" class="passwordControl">
+                <br>
+            <span class="text"></span>
+            <input type="submit" value="STÁT SE ČLENEM">
+        </form>
+
+        <div id="backToTopBtn" onclick="scrollToTop()">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+    
+    </section>
+
+
+    <footer>
+        <div class="footer-wrapper">
+            <div class="social-icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <p>2024 © HERO FITNESS. Všechna práva vyhrazena</p>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+

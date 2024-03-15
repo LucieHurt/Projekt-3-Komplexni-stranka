@@ -1,0 +1,254 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"Poppins", sans-serif;
+}
+
+header {
+    display: flex; 
+    align-items: center;
+    background-color: black;
+    height: 85px;
+    text-transform: uppercase; 
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo img {
+    background-color:#750a0a; 
+    width: 65px;
+    height: 65px; 
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 15px;  
+ 
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none; 
+    margin-right: 30px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px; 
+}
+
+.modeToggle {
+    font-size: 18px;
+    color: white; 
+    margin-right: 30px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+ 
+/* HERO SECTION */    
+
+.hero-section {
+    background-image: url(./img/anastase-maragos-9dzWZQWZMdE-unsplash.jpg);
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: bottom;  
+}
+.hero-text-wrapper {
+    position: relative;
+    width: 70%; 
+    margin: 0 auto; 
+}
+
+.hero-text {
+    color: #750a0a;;
+    position: absolute;
+    font-size: 40px;
+    top: 120px;
+    letter-spacing: 3px;
+}
+
+/* SECOND CARD */
+
+.info-section {
+    background-color: #750a0a;
+    padding: 80px 0px;
+     
+}
+
+.info-wrapper {
+    width: 70%;
+    margin: 0 auto; 
+    display: flex;  
+    gap: 30px;   
+}
+
+.info-title {
+    color: #fff;
+    width: 100%;  
+}
+
+.content {
+    color:#fff; 
+}
+
+/* GALLERY SECTION */
+
+.gallery-section {   
+    padding: 80px 0px;
+}
+
+.photo-wrapper {
+    display: flex; 
+    width: 70%; 
+    margin: 0 auto;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 15px; 
+}
+
+.photo {  
+    height: 250px; 
+    flex: 0 0 calc(33% - 10px); 
+    transition: 0.4s; 
+}
+
+.photo img { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.photo:hover {
+    transform: scale(1.1); 
+}
+
+/* FORM SECTION */
+
+.form-section {
+    background-color: #750a0a;
+    padding: 80px 0px;
+    
+}
+
+.form-title {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 50px; 
+
+}
+
+.form-text {
+    color: #fff;
+    width: 70%;
+    margin: 0 auto; 
+    padding-bottom: 50px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+/* FORM */
+form {
+    text-align: center;
+}
+
+form input {
+    width: 300px;
+    height: 50px; 
+    margin: 8px 0;   
+    padding: 5px 10px;
+    background-color: #4b0505;
+    border-radius: 5px;
+    border: none;
+    color:#fff;
+    outline: none;
+    font-size: 14px; 
+}
+
+form input[type="submit"] {
+    font-weight: bold;
+    background-color: black;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    width: 150px;
+    height: 40px;    
+
+}
+
+.notificationName, .notificationEmail, .notificationNumber {
+    display: none;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px; 
+}
+
+.text {
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin: 5px;
+}
+
+/* SKROLOVÁNÍ NA STRÁNCE */
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 90px;
+    right: 15px;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: black;
+    height: 80px;
+    padding: 25px 0px; 
+}
+
+
+.footer-wrapper {
+    width: 70%; 
+    margin: 0 auto; 
+    color: #fff;
+    font-size: 11px;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 35px; 
+}
+.social-icons i {
+    font-size: 35px;
+}
+
